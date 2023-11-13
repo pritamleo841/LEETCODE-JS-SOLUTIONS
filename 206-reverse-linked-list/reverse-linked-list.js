@@ -21,7 +21,7 @@ var reverseList = function(head) {
         prev=current;
         current=next;
     }
-    //assign head to prev pointer
+    //assign head to prev pointer or directly return prev pointer
     head=prev;
     return head;
 };
