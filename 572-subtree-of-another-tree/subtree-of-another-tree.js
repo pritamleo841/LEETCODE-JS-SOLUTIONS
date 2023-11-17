@@ -21,7 +21,7 @@ var isSubtree = function(root, subRoot) {
         return false;
     }
     if(isSameTree(root,subRoot)){
-        //if root and subRoot are same tree
+        //if root and subRoot are same tree, then also subtree
         return true;
     }
     //if left subtree/right subtree of root are same as subRoot -> hence OR condition
