@@ -20,7 +20,7 @@ var isSubtree = function(root, subRoot) {
         //if not root but subRoot exists
         return false;
     }
-    if(checkSameTree(root,subRoot)){
+    if(isSameTree(root,subRoot)){
         //if root and subRoot are same tree
         return true;
     }
@@ -29,15 +29,18 @@ var isSubtree = function(root, subRoot) {
 
 };
 
-var checkSameTree = function(p,q){
+var isSameTree = function(p, q) {
     if(!p && !q){
+        //if both nodes are empty, return true -> identical
         return true;
     }
-    if(p && q && (p.val==q.val)){
-        return checkSameTree(p.left,q.left) && checkSameTree(p.right,q.right);
-    }
-    else{
+    if((!p || !q) || (p.val!=q.val)){
+        //if either of them is false 
+        //or either of them have different value -> non identical
         return false;
     }
-    
-}
+    else{
+        //if both of left and right subtrees are same -> identical 
+        return isSameTree(p.left,q.left) && isSameTree(p.right,q.right);
+    }
+};
