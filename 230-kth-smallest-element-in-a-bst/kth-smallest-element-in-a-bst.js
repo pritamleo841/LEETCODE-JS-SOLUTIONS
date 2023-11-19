@@ -12,26 +12,40 @@
  * @return {number}
  */
 var kthSmallest = function(root, k) {
-    let count=1;
-    let stack = [];
-    let curr = root;
-    //iterative inorder traversal
-    while(curr || stack.length){
-        while(curr){
-            //visit left most element
-            stack.push(curr);
-            curr=curr.left;
+
+    //Recursive inorder traversal
+    let res = [];
+    const dfsInorder = (root,res)=>{
+        if(!root){
+            return ;
         }
-        //when leftmost leaf node arrives pop from stack 
-        curr=stack.pop();
-        if(count==k){
-            //if count matches with k return curr.val
-            return curr.val;
-        }else{
-            //else increment count
-            count++;
-        }
-        //then visit right nodes
-        curr=curr.right;
-    }
+        dfsInorder(root.left,res);
+        res.push(root.val);
+        dfsInorder(root.right,res);
+    };
+    dfsInorder(root,res);
+    return res[k-1];
+
+    //Iterative inorder traversal
+    // let count=1;
+    // let stack = [];
+    // let curr = root;
+    // while(curr || stack.length){
+    //     while(curr){
+    //         //visit left most element
+    //         stack.push(curr);
+    //         curr=curr.left;
+    //     }
+    //     //when leftmost leaf node arrives pop from stack 
+    //     curr=stack.pop();
+    //     if(count==k){
+    //         //if count matches with k return curr.val
+    //         return curr.val;
+    //     }else{
+    //         //else increment count
+    //         count++;
+    //     }
+    //     //then visit right nodes
+    //     curr=curr.right;
+    // }
 };
