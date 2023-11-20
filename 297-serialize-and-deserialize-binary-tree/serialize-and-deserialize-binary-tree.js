@@ -17,6 +17,7 @@ var serialize = function(root) {
     //using dfs method to push elements into array in preorder
     const dfs = (node)=>{
         if(!node){
+            //don't push null into array, use special character
             data.push('#');
             return;
         }
