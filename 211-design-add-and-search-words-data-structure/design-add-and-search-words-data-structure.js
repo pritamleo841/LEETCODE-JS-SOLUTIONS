@@ -35,22 +35,27 @@ WordDictionary.prototype.search = function(word) {
         if(idx==word.length){
             return curr.end;
         }
-        //pick char
+        //pick a char
         const char = word[idx];
         //check if it's a dot
         if(char == "."){
+            //we go through all of the children of the current node. why?
+            //we don't know which, if any, of the children can use the dot to make the given string.
+            //so we go through all of them and check if any of them can return true.
             for(const char of Object.keys(curr.children)){
                 const child = curr.children[char];
+                 //recursively go to next iteration
                 if(dfs(child,idx+1)){
                     return true;
                 }
             }
             return false;
         }else{
-            //if not dot and not char belonging to 
+            //if not dot and not char belonging to curr node,return false
             if(!curr.children[char]){
                 return false;
             }
+            //else recursively go to next iteration
             return dfs(curr.children[char],idx+1);
         }
     };
