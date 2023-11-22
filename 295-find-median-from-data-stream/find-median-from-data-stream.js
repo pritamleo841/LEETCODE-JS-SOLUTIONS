@@ -1,5 +1,55 @@
 //GOOD FOR LEARNING PURPOSE OF HEAP DATA STRUCTURE
 //SOLUTION BY theesoteric Jun 01, 2021
+
+var MedianFinder = function() {
+    this.left = new Heap("max");
+    this.right = new Heap("min");
+};
+
+/** 
+ * @param {number} num
+ * @return {void}
+ */
+MedianFinder.prototype.addNum = function(num) {
+   if(this.left.getSize()===0){//Lets's put first element in left only
+        this.left.insert(num);
+        return ;
+    }
+    if(this.left.getSize()>this.right.getSize()){
+        if(num<=this.left.getTop()){//As 'left' was already having more values and the new value is also going to the left part, so after insertion, we will remove a value from left part and insert it to the right part, so the values in both the parts become equal
+            this.left.insert(num);
+            this.right.insert(this.left.removeTop());
+        }else{
+            this.right.insert(num);
+        }
+    }else if(this.right.getSize()>this.left.getSize()){//As 'right' was already having more values and the new value is also going to the right part, so after insertion, we will remove a value from right part and insert it to the left part, so the values in both the parts become equal.
+        if(num>=this.right.getTop()){
+            this.right.insert(num);
+            this.left.insert(this.right.removeTop());
+        }else{
+            this.left.insert(num);
+        }
+    }else {//If both the parts were having the same number of values, then we will just check and insert the new num in the relevant part. After this  insertion the part where we inserted the new num will have 1 element more than the other part, having a difference of 1 element is fine. 
+        if(num<=this.left.getTop()){
+            this.left.insert(num);
+        }else{
+            this.right.insert(num);
+        }
+    }
+};
+
+/**
+ * @return {number}
+ */
+MedianFinder.prototype.findMedian = function() {
+     if(this.left.getSize()>this.right.getSize()){
+        return this.left.getTop();
+    }else if(this.right.getSize()>this.left.getSize()){
+        return this.right.getTop();
+    }else{
+        return (this.left.getTop()+this.right.getTop())/2;
+    }
+};
 class Heap{
         constructor(type){
             this.type = type;
@@ -72,56 +122,6 @@ class Heap{
             }
         }
 }
-var MedianFinder = function() {
-    this.left = new Heap("max");
-    this.right = new Heap("min");
-};
-
-/** 
- * @param {number} num
- * @return {void}
- */
-MedianFinder.prototype.addNum = function(num) {
-   if(this.left.getSize()===0){//Lets's put first element in left only
-        this.left.insert(num);
-        return ;
-    }
-    if(this.left.getSize()>this.right.getSize()){
-        if(num<=this.left.getTop()){//As 'left' was already having more values and the new value is also going to the left part, so after insertion, we will remove a value from left part and insert it to the right part, so the values in both the parts become equal
-            this.left.insert(num);
-            this.right.insert(this.left.removeTop());
-        }else{
-            this.right.insert(num);
-        }
-    }else if(this.right.getSize()>this.left.getSize()){//As 'right' was already having more values and the new value is also going to the right part, so after insertion, we will remove a value from right part and insert it to the left part, so the values in both the parts become equal.
-        if(num>=this.right.getTop()){
-            this.right.insert(num);
-            this.left.insert(this.right.removeTop());
-        }else{
-            this.left.insert(num);
-        }
-    }else {//If both the parts were having the same number of values, then we will just check and insert the new num in the relevant part. After this  insertion the part where we inserted the new num will have 1 element more than the other part, having a difference of 1 element is fine. 
-        if(num<=this.left.getTop()){
-            this.left.insert(num);
-        }else{
-            this.right.insert(num);
-        }
-    }
-};
-
-/**
- * @return {number}
- */
-MedianFinder.prototype.findMedian = function() {
-     if(this.left.getSize()>this.right.getSize()){
-        return this.left.getTop();
-    }else if(this.right.getSize()>this.left.getSize()){
-        return this.right.getTop();
-    }else{
-        return (this.left.getTop()+this.right.getTop())/2;
-    }
-};
-
 /** 
  * Your MedianFinder object will be instantiated and called as such:
  * var obj = new MedianFinder()
