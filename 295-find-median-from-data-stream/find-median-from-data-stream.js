@@ -1,5 +1,5 @@
 //GOOD FOR LEARNING PURPOSE OF HEAP DATA STRUCTURE
-
+//SOLUTION BY theesoteric Jun 01, 2021
 class Heap{
         constructor(type){
             this.type = type;
