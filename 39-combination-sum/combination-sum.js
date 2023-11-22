@@ -23,6 +23,12 @@ var combinationSum = function(candidates, target) {
         curr.pop();
         //go to next index and call dfs without using curr value
         dfs(i+1,curr,total);
+        //can also do this using loop
+        // for(let i = index; i< candidates.length; i++){
+        //       output.push(candidates[i]);
+        //       dfs(sum-candidates[i], i);
+        //       output.pop()
+        //}
     };
     //initialize dfs
     dfs(0,[],0);
