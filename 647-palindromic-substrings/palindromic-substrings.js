@@ -5,7 +5,7 @@
 var countSubstrings = function(s) {
     //Solution includes check for  odd length and even length 
     //palindromes and counting from start postion to end postion
-    //by using EXAPANSION FROM MIDDLE Concept
+    //by using EXAPANSION FROM MIDDLE Concept : O(n*n)
     let totalCount = 0;
 
     const countPalindromes = (l,r)=>{
@@ -25,4 +25,6 @@ var countSubstrings = function(s) {
         totalCount+=countPalindromes(i,i+1);
     }
     return totalCount;
+
+    //LEARN MANACHER'S ALGORITHM to find solution in O(n) time
 };
