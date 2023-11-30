@@ -8,17 +8,15 @@ The tricky part of this problem is that negative numbers exist in the input arra
 Since the minimum product may have a chance to become the maximum, we need to store the information about the previous minimum as well and take it into account when we are calculating our maximum product.
  */
 var maxProduct = function(nums) {
-   let max = nums[0];
+    let max = nums[0];
     let prevMax = nums[0];
     let prevMin = nums[0];
-    
-    for (let i = 1; i < nums.length; i++) {
+    for(let i = 1; i < nums.length; i++) {
         const options = [nums[i], nums[i] * prevMax, nums[i] * prevMin];
         prevMax = Math.max(...options);
         prevMin = Math.min(...options);
         
         max = Math.max(max, prevMax);
     }
-    
     return max;
 };
