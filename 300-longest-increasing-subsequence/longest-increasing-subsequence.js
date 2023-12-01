@@ -22,7 +22,9 @@ var lengthOfLIS = function(nums) {
 
     /**
     BEAUTIFUL SOLUTION WITH Greedy with Binary Search -> O(nlogn)
-    We need to keep different sub arrays (sub1, sub2..., subk) which causes poor performance.But we notice that we can just keep one sub array, when new number x is not greater than the last element of the subsequence sub, we do binary search to find the smallest element >= x in sub, and replace with number x.
+    We need to keep different sub arrays (sub1, sub2..., subk) which causes poor performance.
+    But we notice that we can just keep one sub array, when new number x is not greater than the last element of the subsequence sub,
+    we do binary search to find the smallest element >= x in sub, and replace with number x.
 */
     const binarySearch = (array, currVal) => {
         let left = 0; 
