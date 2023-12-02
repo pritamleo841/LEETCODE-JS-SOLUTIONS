@@ -24,6 +24,14 @@ var uniquePaths = function(m, n) {
             dp[i][j]=dp[i-1][j]+dp[i][j-1];
         }
     }
-    
+
     return dp[m-1][n-1];
+
+    /**
+    # From start to destination, 
+    we need (m-1) ↓ moves and (n-1) → moves
+    # Thus, the number of unique paths is the number of permutations 
+    of (m-1) down,  and (n-1) right
+    # Number of unique paths = ( m-1 + n-1 ) ! / (m-1)! * (n-1)!
+    */
 };
