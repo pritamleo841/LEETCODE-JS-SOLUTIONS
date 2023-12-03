@@ -16,4 +16,13 @@ var reverseBits = function (n) {
     }
     // convert the result to an unsigned 32-bit integer
     return result >>> 0;
+
+    /***CONCISE WAY TO WRITE 
+    let res = 0
+    for(let i = 1; i<=32; i++){
+        res = (res << 1) | (n & 1)
+        n>>>=1
+    }
+    return res>>>0;
+    */
 };
