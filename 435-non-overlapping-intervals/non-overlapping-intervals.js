@@ -4,6 +4,7 @@
  */
 var eraseOverlapIntervals = function(intervals) {
     let gaps=0;
+    //Sort the intervals array by end value
     intervals.sort((a,b)=>a[1]-b[1]); //O(nlogn)
     let prevEnd = intervals[0][1];
 
