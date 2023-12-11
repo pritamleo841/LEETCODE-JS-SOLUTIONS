@@ -4,9 +4,10 @@
  */
 var dailyTemperatures = function(temperatures) {
     //Simple Monotonic Decreasing Stack Problem
-    /** We keeping index into stack. Once we encountered temperature 
-        which is greater than top of stack we just pop out stack and store in thee
-        result as (t - index) to popped index.
+    /** 
+    We keeping index into stack. Once we encountered temperature 
+    which is greater than top of stack we just pop out stack and store in thee
+    result as (t - index) to popped index.
     */
     let stack = [];
     let output = new Array(temperatures.length).fill(0);
