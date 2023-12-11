@@ -6,22 +6,21 @@ var evalRPN = function(tokens) {
     let stack = [];
     const operation = (a,b,symbol)=>{
         switch(symbol){
-            case "+": return a+b;
+            case "+": return b+a;
             case "-": return b-a;
-            case "*": return a*b;
+            case "*": return b*a;
             case "/": return Math.trunc(b/a);
         }
     };
-
     for(let char of tokens){
+        //when not operator, push into stack
         if(!['+','-','*','/'].includes(char)){
             stack.push(char);
-            console.log(stack);
         }
+        //else,pop first two values and evaluate,then push result back into stack
         else{
             stack.push(operation(+stack.pop(),+stack.pop(),char));
-            console.log(stack);
         }
     }
-    return stack.pop();
+    return stack[0];
 };
