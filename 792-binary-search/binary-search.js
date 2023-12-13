@@ -20,7 +20,8 @@ var search = function(nums, target) {
     let [left,mid,right] = [0,0,nums.length-1];
     while(left<=right){
         //Bit Manipulation : a/2 => a>>1
-        mid = (left+right)>>1;
+        //mid=(left+right)>>1;
+        mid=Math.floor(left+(right-left)/2);
         if(target>nums[mid]){
             left = mid+1;
         }
