@@ -39,4 +39,26 @@ var copyRandomList = function(head) {
         curr=curr.next;
     }
     return oldToNew.get(head);
+
+    /*****
+    Solution #2: Interweaving Nodes Method TC:O(n), SC:O(1)
+        Intuition and Logic Behind the Solution :
+            The crux of this method is to interweave the nodes of the original and copied lists.
+            This interweaving allows us to set the random pointers for the new nodes without 
+            needing additional memory for mapping.
+
+        Step-by-step Explanation : 
+            Initialization and Interweaving:
+            Traverse the original list.
+            For each node, create a corresponding new node and place it between the current node 
+            and the current node's next.
+
+            Setting Random Pointers:
+            Traverse the interweaved list.
+            For each old node, set its corresponding new node's random pointer.
+
+            Separating Lists:
+            Traverse the interweaved list again to separate the old and new lists.
+    
+     */
 };
