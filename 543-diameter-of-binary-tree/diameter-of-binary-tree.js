@@ -29,4 +29,5 @@ var diameterOfBinaryTree = function(root) {
     }
     dfs(root);
     return diameter;
+    //ALSO STUDY: Diameter of a Binary Tree using Morris Traversal Algorithm
 };
