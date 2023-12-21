@@ -22,6 +22,7 @@ var isBalanced = function(root) {
         //left and right subtree should return true as well as
         //difference of heights between left and right <=1
         let balanced = left[0] && right[0] && (Math.abs(left[1]-right[1])<=1);
+        //height = 1+max(left,right)
         return [balanced,1+Math.max(left[1],right[1])];
     }
     return dfs(root)[0];
