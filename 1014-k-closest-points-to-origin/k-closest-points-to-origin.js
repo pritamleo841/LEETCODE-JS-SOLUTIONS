@@ -19,4 +19,6 @@ var kClosest = function(points, k) {
         res.push(minHeap.dequeue().element);
     }
     return res;
+
+    //The best solution is using quick-select approach
 };
