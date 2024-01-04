@@ -47,6 +47,28 @@ var leastInterval = function(tasks, n) {
         }
     }
     return time;
+    /***
+    INTUITIVE SOLUTION -- 
+    
+    // task is a list of Letters.
+    // n is the delay between same task. 
+        When n = 0 same tasks can be run immediatly after.
+    // n > 0 means n task must be performed inbetween
+    // there are infinite idle tasks that can be used as a delay and be put back to back
+    // find the smallest time it takes to run all the task.
+    // Fastest run can be broken into sets of tasks of lenght n + 1.
+    // Each set contains a unique list of tasks + idles if needed
+    
+    const charCount = new Array(26).fill(0);
+    const OFFSET = "A".charCodeAt(0);
+
+    tasks.forEach(t => charCount[t.charCodeAt(0) - OFFSET]++)
+    
+    const mostFrequent = Math.max(...charCount)
+    const maxValCount = charCount.filter(c => c == mostFrequent).length
+
+    return Math.max(tasks.length, (mostFrequent - 1) * (n+1) + maxValCount)
+     */
 };
 // Custom JavaScript MaxHeap Implementation
 function MaxHeap() {
