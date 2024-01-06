@@ -20,4 +20,13 @@ var subsets = function(nums) {
     };
     dfs(0);
     return res;
+    /***
+    SHORT SOLUTION:
+    if (nums.length === 0) return [ [] ];
+    const first = nums[0];
+    const remaining = nums.slice(1);
+    const remainingSubsets = subsets(remaining);
+    const firstSubsets = remainingSubsets.map(sub => [first, ...sub]) ;
+    return [...firstSubsets, ...remainingSubsets];
+    */
 };
