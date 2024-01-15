@@ -48,6 +48,7 @@ var findItinerary = function(tickets) {
     }
     //sort the keys
     for(const key in graph){
+        //These lists of destinations are sorted in reverse lexical order. This allows us to pop the last element to ensure that we are choosing the smallest lexical order when there are multiple options.
         graph[key].sort().reverse();
     }
     //construct itinerary
