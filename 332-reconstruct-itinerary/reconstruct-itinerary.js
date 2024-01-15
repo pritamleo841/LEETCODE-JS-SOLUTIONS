@@ -53,12 +53,14 @@ var findItinerary = function(tickets) {
     //construct itinerary
     const path=[];
     const dfs = (airport)=>{
+        //Inside this function, we enter a loop that continues until we find an airport that has no more destinations left to visit. This is done by checking the adjacency list for each airport and popping the last element (which is the smallest in lexical order).
         while(graph[airport] && graph[airport].length>0){
             dfs(graph[airport].pop());
         }
         path.push(airport);
     };
     dfs("JFK");
+    //Since we constructed the itinerary in reverse, the final step is to reverse this list. This gives us the correct order of airports to visit, starting from JFK, and is our final solution.
     return path.reverse();
     
 
