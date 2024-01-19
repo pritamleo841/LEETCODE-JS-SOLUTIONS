@@ -11,4 +11,17 @@ var minCostClimbingStairs = function(cost) {
     }
     //min cost of any of first two jumps
     return Math.min(cost[0],cost[1]);
+    /**
+    let oneAway = cost[1];
+    let twoAway = cost[0];
+
+    for (let i = 2; i < cost.length; i++) {
+        let cur = Math.min(oneAway, twoAway) + cost[i];
+        twoAway = oneAway;
+        oneAway = cur;
+    }
+
+    return Math.min(oneAway, twoAway);
+    
+     */
 };
