@@ -25,5 +25,5 @@ var mergeTriplets = function(triplets, target) {
            }
        }
    }
-   return goodSet.size==3;
+   return goodSet.size===target.length;
 };
