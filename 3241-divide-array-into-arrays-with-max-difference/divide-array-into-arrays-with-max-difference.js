@@ -4,10 +4,12 @@
  * @return {number[][]}
  */
 var divideArray = function(nums, k) {
-    /***
-    1. Divide the array into size 3 subarrays
-    2. Each element in a subarray should have a diff of atleast k (<=k)
-    */
+    /**
+    PROBLEM OF THE DAY : 01-02-24
+     */
+    //Trick it to sort the array first
+    //Make subarray with consecutive elements
+    //Then check each subarray of size 3 if elements diff <=k
     if(nums.length%3)return [];
     let output=[];
     nums.sort((a,b)=>a-b);
