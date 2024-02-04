@@ -34,7 +34,9 @@ var minWindow = function(s, t) {
     }
     return substring;
 
-//      For most substring problem, we are given a string and need to find a substring of it which satisfy some restrictions. A general way is to use a hashmap assisted with two pointers. The template is given below.
+//      For most substring problem, 
+//we are given a string and need to find a substring of it which satisfy some restrictions. 
+//A general way is to use a hashmap assisted with two pointers. The template is given below.
 
 // int findSubstring(string s){
 //         vector<int> map(128,0);
