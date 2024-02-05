@@ -3,7 +3,8 @@
  * @return {number}
  */
 var firstUniqChar = function(s) {
-    let map=new Map();
+    //PROBLEM OF THE DAY-05-02-24
+    let map=new Map(); //use map of array of chars
     for(let char of s){
         map.set(char,(map.get(char) || 0 ) +1 );
     }
