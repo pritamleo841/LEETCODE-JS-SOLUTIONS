@@ -10,6 +10,7 @@
 | [0035-search-insert-position](https://github.com/pritamleo841/LeetcodeJS/tree/master/0035-search-insert-position) |
 | [0074-search-a-2d-matrix](https://github.com/pritamleo841/LeetcodeJS/tree/master/0074-search-a-2d-matrix) |
 | [0792-binary-search](https://github.com/pritamleo841/LeetcodeJS/tree/master/0792-binary-search) |
+| [1056-capacity-to-ship-packages-within-d-days](https://github.com/pritamleo841/LeetcodeJS/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [2727-number-of-senior-citizens](https://github.com/pritamleo841/LeetcodeJS/tree/master/2727-number-of-senior-citizens) |
 ## String
 |  |
@@ -23,6 +24,7 @@
 | [0074-search-a-2d-matrix](https://github.com/pritamleo841/LeetcodeJS/tree/master/0074-search-a-2d-matrix) |
 | [0278-first-bad-version](https://github.com/pritamleo841/LeetcodeJS/tree/master/0278-first-bad-version) |
 | [0792-binary-search](https://github.com/pritamleo841/LeetcodeJS/tree/master/0792-binary-search) |
+| [1056-capacity-to-ship-packages-within-d-days](https://github.com/pritamleo841/LeetcodeJS/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 ## Interactive
 |  |
 | ------- |
