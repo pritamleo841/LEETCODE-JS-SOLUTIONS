@@ -27,6 +27,7 @@
 | [0074-search-a-2d-matrix](https://github.com/pritamleo841/LeetcodeJS/tree/master/0074-search-a-2d-matrix) |
 | [0278-first-bad-version](https://github.com/pritamleo841/LeetcodeJS/tree/master/0278-first-bad-version) |
 | [0410-split-array-largest-sum](https://github.com/pritamleo841/LeetcodeJS/tree/master/0410-split-array-largest-sum) |
+| [0668-kth-smallest-number-in-multiplication-table](https://github.com/pritamleo841/LeetcodeJS/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [0792-binary-search](https://github.com/pritamleo841/LeetcodeJS/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/pritamleo841/LeetcodeJS/tree/master/0907-koko-eating-bananas) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/pritamleo841/LeetcodeJS/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -39,6 +40,7 @@
 |  |
 | ------- |
 | [0069-sqrtx](https://github.com/pritamleo841/LeetcodeJS/tree/master/0069-sqrtx) |
+| [0668-kth-smallest-number-in-multiplication-table](https://github.com/pritamleo841/LeetcodeJS/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 ## Matrix
 |  |
 | ------- |
