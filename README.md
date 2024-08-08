@@ -35,6 +35,7 @@
 | [0792-binary-search](https://github.com/pritamleo841/LeetcodeJS/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/pritamleo841/LeetcodeJS/tree/master/0907-koko-eating-bananas) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/pritamleo841/LeetcodeJS/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1307-ugly-number-iii](https://github.com/pritamleo841/LeetcodeJS/tree/master/1307-ugly-number-iii) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/pritamleo841/LeetcodeJS/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 ## Interactive
 |  |
@@ -45,6 +46,7 @@
 | ------- |
 | [0069-sqrtx](https://github.com/pritamleo841/LeetcodeJS/tree/master/0069-sqrtx) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/pritamleo841/LeetcodeJS/tree/master/0668-kth-smallest-number-in-multiplication-table) |
+| [1307-ugly-number-iii](https://github.com/pritamleo841/LeetcodeJS/tree/master/1307-ugly-number-iii) |
 ## Matrix
 |  |
 | ------- |
@@ -69,4 +71,12 @@
 |  |
 | ------- |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/pritamleo841/LeetcodeJS/tree/master/0719-find-k-th-smallest-pair-distance) |
+## Combinatorics
+|  |
+| ------- |
+| [1307-ugly-number-iii](https://github.com/pritamleo841/LeetcodeJS/tree/master/1307-ugly-number-iii) |
+## Number Theory
+|  |
+| ------- |
+| [1307-ugly-number-iii](https://github.com/pritamleo841/LeetcodeJS/tree/master/1307-ugly-number-iii) |
 <!---LeetCode Topics End-->
