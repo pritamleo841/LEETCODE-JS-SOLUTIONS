@@ -16,6 +16,7 @@
 | [0792-binary-search](https://github.com/pritamleo841/LeetcodeJS/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/pritamleo841/LeetcodeJS/tree/master/0907-koko-eating-bananas) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/pritamleo841/LeetcodeJS/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/pritamleo841/LeetcodeJS/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/pritamleo841/LeetcodeJS/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [2727-number-of-senior-citizens](https://github.com/pritamleo841/LeetcodeJS/tree/master/2727-number-of-senior-citizens) |
 ## String
@@ -38,6 +39,7 @@
 | [0907-koko-eating-bananas](https://github.com/pritamleo841/LeetcodeJS/tree/master/0907-koko-eating-bananas) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/pritamleo841/LeetcodeJS/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1307-ugly-number-iii](https://github.com/pritamleo841/LeetcodeJS/tree/master/1307-ugly-number-iii) |
+| [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/pritamleo841/LeetcodeJS/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/pritamleo841/LeetcodeJS/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 ## Interactive
 |  |
