@@ -22,6 +22,7 @@
 ## String
 |  |
 | ------- |
+| [1023-time-based-key-value-store](https://github.com/pritamleo841/LeetcodeJS/tree/master/1023-time-based-key-value-store) |
 | [2727-number-of-senior-citizens](https://github.com/pritamleo841/LeetcodeJS/tree/master/2727-number-of-senior-citizens) |
 ## Binary Search
 |  |
@@ -37,6 +38,7 @@
 | [0719-find-k-th-smallest-pair-distance](https://github.com/pritamleo841/LeetcodeJS/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0792-binary-search](https://github.com/pritamleo841/LeetcodeJS/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/pritamleo841/LeetcodeJS/tree/master/0907-koko-eating-bananas) |
+| [1023-time-based-key-value-store](https://github.com/pritamleo841/LeetcodeJS/tree/master/1023-time-based-key-value-store) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/pritamleo841/LeetcodeJS/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1307-ugly-number-iii](https://github.com/pritamleo841/LeetcodeJS/tree/master/1307-ugly-number-iii) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/pritamleo841/LeetcodeJS/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
@@ -83,4 +85,12 @@
 |  |
 | ------- |
 | [1307-ugly-number-iii](https://github.com/pritamleo841/LeetcodeJS/tree/master/1307-ugly-number-iii) |
+## Hash Table
+|  |
+| ------- |
+| [1023-time-based-key-value-store](https://github.com/pritamleo841/LeetcodeJS/tree/master/1023-time-based-key-value-store) |
+## Design
+|  |
+| ------- |
+| [1023-time-based-key-value-store](https://github.com/pritamleo841/LeetcodeJS/tree/master/1023-time-based-key-value-store) |
 <!---LeetCode Topics End-->
