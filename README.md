@@ -27,6 +27,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/pritamleo841/LeetcodeJS/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/pritamleo841/LeetcodeJS/tree/master/0424-longest-repeating-character-replacement) |
 | [1023-time-based-key-value-store](https://github.com/pritamleo841/LeetcodeJS/tree/master/1023-time-based-key-value-store) |
+| [1537-maximum-score-after-splitting-a-string](https://github.com/pritamleo841/LeetcodeJS/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [2727-number-of-senior-citizens](https://github.com/pritamleo841/LeetcodeJS/tree/master/2727-number-of-senior-citizens) |
 ## Binary Search
 |  |
@@ -74,6 +75,7 @@
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/pritamleo841/LeetcodeJS/tree/master/0410-split-array-largest-sum) |
+| [1537-maximum-score-after-splitting-a-string](https://github.com/pritamleo841/LeetcodeJS/tree/master/1537-maximum-score-after-splitting-a-string) |
 ## Two Pointers
 |  |
 | ------- |
