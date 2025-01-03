@@ -25,6 +25,5 @@ var waysToSplitArray = function(nums) {
         if(i!=nums.length-1 && prefix[i]>=postfix[i+1])count++;
     }
 
-    console.log(prefix,postfix,count);
     return count;
 };
