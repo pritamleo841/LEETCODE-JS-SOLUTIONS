@@ -21,6 +21,7 @@
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/pritamleo841/LeetcodeJS/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/pritamleo841/LeetcodeJS/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [2358-number-of-ways-to-split-array](https://github.com/pritamleo841/LeetcodeJS/tree/master/2358-number-of-ways-to-split-array) |
+| [2465-shifting-letters-ii](https://github.com/pritamleo841/LeetcodeJS/tree/master/2465-shifting-letters-ii) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/pritamleo841/LeetcodeJS/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2727-number-of-senior-citizens](https://github.com/pritamleo841/LeetcodeJS/tree/master/2727-number-of-senior-citizens) |
 ## String
@@ -31,6 +32,7 @@
 | [1023-time-based-key-value-store](https://github.com/pritamleo841/LeetcodeJS/tree/master/1023-time-based-key-value-store) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/pritamleo841/LeetcodeJS/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/pritamleo841/LeetcodeJS/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2465-shifting-letters-ii](https://github.com/pritamleo841/LeetcodeJS/tree/master/2465-shifting-letters-ii) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/pritamleo841/LeetcodeJS/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2727-number-of-senior-citizens](https://github.com/pritamleo841/LeetcodeJS/tree/master/2727-number-of-senior-citizens) |
 ## Binary Search
@@ -82,6 +84,7 @@
 | [1537-maximum-score-after-splitting-a-string](https://github.com/pritamleo841/LeetcodeJS/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/pritamleo841/LeetcodeJS/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2358-number-of-ways-to-split-array](https://github.com/pritamleo841/LeetcodeJS/tree/master/2358-number-of-ways-to-split-array) |
+| [2465-shifting-letters-ii](https://github.com/pritamleo841/LeetcodeJS/tree/master/2465-shifting-letters-ii) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/pritamleo841/LeetcodeJS/tree/master/2691-count-vowel-strings-in-ranges) |
 ## Two Pointers
 |  |
