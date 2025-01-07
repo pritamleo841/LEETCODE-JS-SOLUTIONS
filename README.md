@@ -19,6 +19,7 @@
 | [0907-koko-eating-bananas](https://github.com/pritamleo841/LeetcodeJS/tree/master/0907-koko-eating-bananas) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/pritamleo841/LeetcodeJS/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/pritamleo841/LeetcodeJS/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
+| [1524-string-matching-in-an-array](https://github.com/pritamleo841/LeetcodeJS/tree/master/1524-string-matching-in-an-array) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/pritamleo841/LeetcodeJS/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/pritamleo841/LeetcodeJS/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2358-number-of-ways-to-split-array](https://github.com/pritamleo841/LeetcodeJS/tree/master/2358-number-of-ways-to-split-array) |
@@ -31,6 +32,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/pritamleo841/LeetcodeJS/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/pritamleo841/LeetcodeJS/tree/master/0424-longest-repeating-character-replacement) |
 | [1023-time-based-key-value-store](https://github.com/pritamleo841/LeetcodeJS/tree/master/1023-time-based-key-value-store) |
+| [1524-string-matching-in-an-array](https://github.com/pritamleo841/LeetcodeJS/tree/master/1524-string-matching-in-an-array) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/pritamleo841/LeetcodeJS/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/pritamleo841/LeetcodeJS/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/pritamleo841/LeetcodeJS/tree/master/2059-unique-length-3-palindromic-subsequences) |
@@ -130,4 +132,8 @@
 |  |
 | ------- |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/pritamleo841/LeetcodeJS/tree/master/2059-unique-length-3-palindromic-subsequences) |
+## String Matching
+|  |
+| ------- |
+| [1524-string-matching-in-an-array](https://github.com/pritamleo841/LeetcodeJS/tree/master/1524-string-matching-in-an-array) |
 <!---LeetCode Topics End-->
