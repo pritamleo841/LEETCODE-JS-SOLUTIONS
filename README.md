@@ -26,6 +26,7 @@
 | [2465-shifting-letters-ii](https://github.com/pritamleo841/LeetcodeJS/tree/master/2465-shifting-letters-ii) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/pritamleo841/LeetcodeJS/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2727-number-of-senior-citizens](https://github.com/pritamleo841/LeetcodeJS/tree/master/2727-number-of-senior-citizens) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/pritamleo841/LeetcodeJS/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## String
 |  |
 | ------- |
@@ -39,6 +40,7 @@
 | [2465-shifting-letters-ii](https://github.com/pritamleo841/LeetcodeJS/tree/master/2465-shifting-letters-ii) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/pritamleo841/LeetcodeJS/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2727-number-of-senior-citizens](https://github.com/pritamleo841/LeetcodeJS/tree/master/2727-number-of-senior-citizens) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/pritamleo841/LeetcodeJS/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Binary Search
 |  |
 | ------- |
@@ -136,4 +138,17 @@
 |  |
 | ------- |
 | [1524-string-matching-in-an-array](https://github.com/pritamleo841/LeetcodeJS/tree/master/1524-string-matching-in-an-array) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/pritamleo841/LeetcodeJS/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+## Trie
+|  |
+| ------- |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/pritamleo841/LeetcodeJS/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+## Rolling Hash
+|  |
+| ------- |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/pritamleo841/LeetcodeJS/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+## Hash Function
+|  |
+| ------- |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/pritamleo841/LeetcodeJS/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 <!---LeetCode Topics End-->
