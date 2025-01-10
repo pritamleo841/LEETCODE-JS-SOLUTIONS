@@ -17,6 +17,7 @@
 | [0719-find-k-th-smallest-pair-distance](https://github.com/pritamleo841/LeetcodeJS/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0792-binary-search](https://github.com/pritamleo841/LeetcodeJS/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/pritamleo841/LeetcodeJS/tree/master/0907-koko-eating-bananas) |
+| [0952-word-subsets](https://github.com/pritamleo841/LeetcodeJS/tree/master/0952-word-subsets) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/pritamleo841/LeetcodeJS/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/pritamleo841/LeetcodeJS/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1524-string-matching-in-an-array](https://github.com/pritamleo841/LeetcodeJS/tree/master/1524-string-matching-in-an-array) |
@@ -33,6 +34,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/pritamleo841/LeetcodeJS/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/pritamleo841/LeetcodeJS/tree/master/0424-longest-repeating-character-replacement) |
+| [0952-word-subsets](https://github.com/pritamleo841/LeetcodeJS/tree/master/0952-word-subsets) |
 | [1023-time-based-key-value-store](https://github.com/pritamleo841/LeetcodeJS/tree/master/1023-time-based-key-value-store) |
 | [1524-string-matching-in-an-array](https://github.com/pritamleo841/LeetcodeJS/tree/master/1524-string-matching-in-an-array) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/pritamleo841/LeetcodeJS/tree/master/1537-maximum-score-after-splitting-a-string) |
@@ -117,6 +119,7 @@
 | [0001-two-sum](https://github.com/pritamleo841/LeetcodeJS/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/pritamleo841/LeetcodeJS/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/pritamleo841/LeetcodeJS/tree/master/0424-longest-repeating-character-replacement) |
+| [0952-word-subsets](https://github.com/pritamleo841/LeetcodeJS/tree/master/0952-word-subsets) |
 | [1023-time-based-key-value-store](https://github.com/pritamleo841/LeetcodeJS/tree/master/1023-time-based-key-value-store) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/pritamleo841/LeetcodeJS/tree/master/2059-unique-length-3-palindromic-subsequences) |
 ## Design
