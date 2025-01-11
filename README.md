@@ -36,6 +36,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/pritamleo841/LeetcodeJS/tree/master/0424-longest-repeating-character-replacement) |
 | [0952-word-subsets](https://github.com/pritamleo841/LeetcodeJS/tree/master/0952-word-subsets) |
 | [1023-time-based-key-value-store](https://github.com/pritamleo841/LeetcodeJS/tree/master/1023-time-based-key-value-store) |
+| [1502-construct-k-palindrome-strings](https://github.com/pritamleo841/LeetcodeJS/tree/master/1502-construct-k-palindrome-strings) |
 | [1524-string-matching-in-an-array](https://github.com/pritamleo841/LeetcodeJS/tree/master/1524-string-matching-in-an-array) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/pritamleo841/LeetcodeJS/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/pritamleo841/LeetcodeJS/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -87,6 +88,7 @@
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/pritamleo841/LeetcodeJS/tree/master/0410-split-array-largest-sum) |
+| [1502-construct-k-palindrome-strings](https://github.com/pritamleo841/LeetcodeJS/tree/master/1502-construct-k-palindrome-strings) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -121,6 +123,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/pritamleo841/LeetcodeJS/tree/master/0424-longest-repeating-character-replacement) |
 | [0952-word-subsets](https://github.com/pritamleo841/LeetcodeJS/tree/master/0952-word-subsets) |
 | [1023-time-based-key-value-store](https://github.com/pritamleo841/LeetcodeJS/tree/master/1023-time-based-key-value-store) |
+| [1502-construct-k-palindrome-strings](https://github.com/pritamleo841/LeetcodeJS/tree/master/1502-construct-k-palindrome-strings) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/pritamleo841/LeetcodeJS/tree/master/2059-unique-length-3-palindromic-subsequences) |
 ## Design
 |  |
@@ -157,4 +160,8 @@
 |  |
 | ------- |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/pritamleo841/LeetcodeJS/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+## Counting
+|  |
+| ------- |
+| [1502-construct-k-palindrome-strings](https://github.com/pritamleo841/LeetcodeJS/tree/master/1502-construct-k-palindrome-strings) |
 <!---LeetCode Topics End-->
