@@ -34,6 +34,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/pritamleo841/LeetcodeJS/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0014-longest-common-prefix](https://github.com/pritamleo841/LeetcodeJS/tree/master/0014-longest-common-prefix) |
 | [0424-longest-repeating-character-replacement](https://github.com/pritamleo841/LeetcodeJS/tree/master/0424-longest-repeating-character-replacement) |
 | [0952-word-subsets](https://github.com/pritamleo841/LeetcodeJS/tree/master/0952-word-subsets) |
 | [1023-time-based-key-value-store](https://github.com/pritamleo841/LeetcodeJS/tree/master/1023-time-based-key-value-store) |
@@ -153,6 +154,7 @@
 ## Trie
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/pritamleo841/LeetcodeJS/tree/master/0014-longest-common-prefix) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/pritamleo841/LeetcodeJS/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Rolling Hash
 |  |
